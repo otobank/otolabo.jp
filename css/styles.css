@@ -1,0 +1,38 @@
+body {
+  color: #999;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+  font-family: -apple-system;
+}
+a {
+  color: #006056;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+.text-center {
+  text-align: center;
+}
+.brand {
+  background-image: url(../images/logo.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  overflow: hidden;
+  text-indent: -32767px;
+}
+.brand-sm {
+  max-width: 1600px;
+  min-height: 7rem;
+}
+.brand-lg {
+  max-width: 1600px;
+  min-height: 600px;
+}
+
